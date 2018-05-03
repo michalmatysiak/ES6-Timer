@@ -1,3 +1,8 @@
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
 body {
 	text-align: center;
 	margin: 0 auto;
@@ -9,7 +14,6 @@ body {
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center;
-	max-height: 951px;
 	min-height: 950px;
 }
 .controls {
@@ -44,10 +48,13 @@ body {
 	text-align: center;
 	text-decoration: none;
 	font-size: 40px;
-	list-style-type: none;	
+	
 	color: #000;
 }
 li {
 	margin-left: -40px;
 	padding-top: 0px;
+}
+ul {
+	list-style-type: none;	
 }

@@ -1,5 +1,3 @@
-
-
 class Stopwatch {
     constructor(display) {
         this.running = false;
@@ -68,10 +66,10 @@ class Stopwatch {
       let lapTime = document.getElementById('stopwatch').innerHTML;
       console.log(lapTime);
 
-      const x = document.createElement("LI");
-      const t = document.createTextNode(lapTime);
-      x.appendChild(t);
-      document.getElementById("results").appendChild(x);
+      const nextResult = document.createElement("li");
+      const textResult = document.createTextNode(lapTime);
+      savedResult.appendChild(textResult);
+      document.getElementById("results").appendChild(savedResult);
     }
 }
 

@@ -14,7 +14,7 @@ body {
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center;
-	min-height: 950px;
+	min-height: 100vh;
 }
 .controls {
 	padding-top: 230px;
@@ -36,7 +36,7 @@ body {
 	color: #1034a6;
 }
 .col-6 {
-  width: 50%; 
+        width: 50%; 
 }
 .button {
 	text-decoration: none;
